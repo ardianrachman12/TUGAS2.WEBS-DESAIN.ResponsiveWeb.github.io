@@ -1,0 +1,42 @@
+@media only screen and (max-width:650px){
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 1.5fr 1fr 0.3fr;
+        grid-template-areas: 
+            "nav"
+            "content1"
+            "sidebar"
+            "footer";
+    }
+    nav {
+        font-size: 0.9em;
+    }
+    nav img{
+        width: 2em;
+        margin-left: 5%;
+    }
+    #textsearch {
+        padding: 0.0001em;
+        width: 70px;
+    }
+    .content1 , footer, .sidebar{
+        font-size: 0.8em;
+    }
+    footer{
+        padding: 2%;
+    }
+}
+@media only screen and (max-width:460px){
+    .form input,textarea{
+        width: 85%;
+    }
+}
+@media only screen and (max-width:780px){
+    .container{
+        width: 100%;
+    }
+    img{
+        width: 50%;
+    }
+
+}
